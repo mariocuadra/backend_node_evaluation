@@ -26,6 +26,7 @@ describe("Tests to products", () => {
     });
     await client.connect();
     database = client.db(DB_NAME);
+    console.log(DB_NAME);
   });
 
   afterAll(async () => {
